@@ -8,7 +8,7 @@ $(document).ready(function() {
         $('form').slideUp();
     })
 
-    $('from').on('submit', function(e) {
+    $('form').on('submit', function(e) {
         e.preventDefault();
 
         const enderecoDaNovaImagem = $('#endereco-imagem-nova').val();
